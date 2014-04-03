@@ -9,19 +9,29 @@ $(document).ready(function (argument) {
 			"top" : "100%",
 			"marginTop" : "-200px",
 
-			"borderRadius" : "+=p5x",
+			"borderRadius" : "+=50px",
+			'backgroundColor': "red"
 		} );
 		$(".box").animate({
 			"left" : "100%",
 			"marginLeft" : "-200px",
+
+			"borderRadius" : "-=50px",
+			'backgroundColor': "blue"
 		});
 		$(".box").animate({
 			"top" : "0%",
 			"marginTop" : "0px",
+			'backgroundColor': "yellow",
+
+			"borderRadius" : "+=50px",
 		});
 		$(".box").animate({
 			"left" : "0%",
 			"marginLeft" : "0px",
+			'backgroundColor': "green",
+
+			"borderRadius" : "-=50px",
 		});
 	}
 
